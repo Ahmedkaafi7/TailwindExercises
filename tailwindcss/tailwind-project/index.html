@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Only-Tailwind-proj</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <!-- header -->
+    <header class="class="bg-white shadow-md fixed w-full ">
+        
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-around items-center">
+    
+    <h1 class="text-xl font-bold text-violet-600">Birmad security</h1>
+
+    <!-- Desktop Menu -->
+    <nav class="hidden md:flex space-x-8 font-medium">
+      <a href="#home" class="hover:text-violet-600 transition">Home</a>
+      <a href="#features" class="hover:text-violet-600 transition">Features</a>
+      <a href="#pricing" class="hover:text-violet-600 transition">Pricing</a>
+      <a href="#contact" class="hover:text-violet-600 transition">Contact</a>
+    </nav>
+
+    <!-- Mobile Button -->
+    <button id="menuBtn" class="md:hidden text-gray-700">
+      ☰
+    </button>
+
+  </div>
+
+   <!-- Mobile Menu -->
+  <div id="mobileMenu" class="hidden md:hidden bg-white px-6 pb-4 space-y-4">
+    <a href="#home" class="block">Home</a>
+    <a href="#features" class="block">Features</a>
+    <a href="#pricing" class="block">Pricing</a>
+    <a href="#contact" class="block">Contact</a>
+  </div>
+
+
+    </header>
+
+   <!--hero sect -->
+   <section id="home" class="pt-32 pb-24 bg-gradient-to-r from-violet-600 to-purple-600/90 text-white text-center">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-4xl md:text-5xl font-bold mb-6">
+      Your Partner in Protections
+    </h2>
+    <p class="text-lg text-violet-100 mb-8">
+     ​Transforming local businesses with world-class security and access technology.
+    </p>
+    <button class="bg-white text-violet-600 font-semibold px-8 py-3 rounded-lg shadow hover:bg-gray-100 transition">
+      Get Started
+    </button>
+  </div>
+</section>
+   <!-- features sec -->
+    <section id="features" class="py-20">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-12">Why Choose Us</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition hover:translate-x-2">
+        <div class="text-yellow-500 mb-4 text-4xl">⚡</div>
+        <h3 class="font-semibold mb-3 text-lg">Energy Savings</h3>
+        <p class="text-gray-600 text-sm">
+          Reduce utility costs with smart automation.
+        </p>
+      </div>
+
+      <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition hover:translate-x-2">
+        <div class="text-red-500 mb-4 text-4xl">🛡</div>
+        <h3 class="font-semibold mb-3 text-lg">Secure</h3>
+        <p class="text-gray-600 text-sm">
+          Advanced protection and reliable security systems.
+        </p>
+      </div>
+
+      <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition hover:translate-x-2">
+        <div class="text-blue-500 mb-4 text-4xl">✨</div>
+        <h3 class="font-semibold mb-3 text-lg">Remote Access</h3>
+        <p class="text-gray-600 text-sm">
+         Control your home from anywhere in the world.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="py-20 bg-gray-100">
+  <div class="max-w-5xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-12">What Our Clients Say</h2>
+
+    <div class="grid md:grid-cols-2 gap-8">
+
+     <div class="bg-gray-100 p-6 rounded-xl max-w-md bg-white p-6 rounded-xl shadow transition hover:translate-x-2 ease-in">
+  
+  <!-- Quote -->
+  <p class="text-gray-600 text-base leading-relaxed mb-6">
+    "The best decision we made for our business. The results have been incredible."
+  </p>
+
+  <!-- Profile Section -->
+  <div class="flex items-center space-x-4 ">
+    
+    <!-- Avatar -->
+    <img 
+      src="https://randomuser.me/api/portraits/men/32.jpg" 
+      alt="John Smith"
+      class="w-12 h-12 rounded-full object-cover"
+    />
+
+    <!-- Name & Title -->
+    <div>
+      <h4 class="font-semibold text-gray-800">
+        John Smith
+      </h4>
+      <p class="text-gray-500 text-sm">
+        CEO, TechCorp
+      </p>
+    </div>
+
+  </div>
+
+</div>
+     
+    <div class="bg-gray-100 p-6 rounded-xl max-w-md bg-white p-6 rounded-xl shadow transition hover:translate-x-2 ease-in">
+  
+  <!-- Quote -->
+  <p class="text-gray-600 text-base leading-relaxed mb-6">
+              “Professional and reliable. Since Birmad security installed our surveillance, I finally have peace of mind knowing my property is monitored 24/7. Truly top-tier security.".”
+
+  </p>
+
+  <!-- Profile Section -->
+  <div class="flex items-center space-x-2 ">
+    
+    <!-- Avatar -->
+    <img 
+      src="https://randomuser.me/api/portraits/women/32.jpg" 
+      alt="John Smith"
+      class="w-12 h-12 rounded-full object-cover"
+    />
+
+    <!-- Name & Title -->
+    <div class="items-start">
+      <h4 class="font-semibold text-gray-800 -ml-2">
+     haliimo
+      </h4>
+      <p class="text-gray-500 text-sm">
+     Founder & CEO
+      </p>
+    </div>
+
+  </div>
+
+</div>
+    </div>
+  </div>
+</section>
+   <!-- pricing -->
+    <section id="pricing" class="py-20">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-12">Simple, Transparent Pricing</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition hover:translate-x-2 ease-in">
+        <h3 class="font-semibold mb-3">Starter</h3>
+        <p class="text-4xl font-bold mb-6">$99</p>
+        <button class="bg-violet-600 text-white px-6 py-3 rounded-lg hover:bg-violet-700 transition">
+          Get Started
+        </button>
+      </div>
+
+      <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition hover:translate-x-2 ease-in border-2 border-violet-600 scale-105 ">
+        <h3 class="font-semibold mb-3">Professional</h3>
+        <p class="text-4xl font-bold mb-6">$199.9</p>
+        <button class="bg-violet-600 text-white px-6 py-3 rounded-lg hover:bg-violet-700 transition">
+          Get Started
+        </button>
+      </div>
+
+      <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition hover:translate-x-2 ease-in ">
+        <h3 class="font-semibold mb-3">Enterprise</h3>
+        <p class="text-4xl font-bold mb-6">$500</p>
+        <button class="bg-violet-600 text-white px-6 py-3 rounded-lg hover:bg-violet-700 transition">
+          Contact Us
+        </button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Contact -->
+   <section id="contact" class="py-20 bg-gray-100">
+  <div class="max-w-xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-8">Get In Touch</h2>
+
+    <form class="space-y-4">
+      <input type="text" placeholder="Name"
+        class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-violet-500 outline-none">
+
+      <input type="email" placeholder="Email"
+        class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-violet-500 outline-none">
+
+      <textarea placeholder="Message"
+        class="w-full border border-gray-300 rounded-lg px-4 py-3 h-32 focus:ring-2 focus:ring-violet-500 outline-none"></textarea>
+
+      <button class="w-full bg-violet-600 text-white py-3 rounded-lg hover:bg-violet-700 transition">
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+   <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center">
+  <p>© 2026 Birmad Security. All rights reserved.</p>
+</footer>
+
+  <!-- js mobile toggle -->
+   <script>
+  const menuBtn = document.getElementById("menuBtn");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+</script>
+</body>
+</html>
