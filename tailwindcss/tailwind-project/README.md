@@ -1,6 +1,10 @@
 # Birmad Security – Tailwind Project
 
 This is a responsive landing page built using **HTML, Tailwind CSS (CDN), and a little JavaScript**.
+## 🚀 Live Demo
+
+🔗 **Live Site:** [View Project](https://[your-live-link.com](https://tailwind-project-igky06thy-ahmedkaafis-projects.vercel.app/))
+📂 **GitHub Repo:** [Source Code](https://[github.com/yourusername/birmad-security](https://github.com/Ahmedkaafi7/TailwindExercises/edit/main/tailwindcss/tailwind-project))
 
 ## 🚀 About the Project
 
@@ -37,3 +41,4 @@ The goal of this project was to improve my Tailwind CSS skills and understand ho
 ---
 
 Built by Ahmed Kaafi 🚀
+
